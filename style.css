@@ -3,13 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f6f7; /* Light gray background */
     color: #333;
 }
 
 h1, h2 {
-    color: #ff6600;
-    text-shadow: 0 0 15px #ff6600, 0 0 20px #ff6600;
+    color: #f39c12; /* Golden yellow color */
+    text-shadow: 0 0 15px #f39c12, 0 0 20px #f39c12;
 }
 
 /* Glowing text effect */
@@ -21,16 +21,16 @@ h1, h2 {
 
 @keyframes glow {
     0% {
-        text-shadow: 0 0 15px #ff6600, 0 0 20px #ff6600;
+        text-shadow: 0 0 15px #f39c12, 0 0 20px #f39c12;
     }
     100% {
-        text-shadow: 0 0 25px #ff6600, 0 0 30px #ff6600, 0 0 35px #ff6600;
+        text-shadow: 0 0 25px #f39c12, 0 0 30px #f39c12, 0 0 35px #f39c12;
     }
 }
 
 /* Header and Navigation */
 header {
-    background-color: #0073e6;
+    background-color: #2980b9; /* Bright blue header */
     color: white;
     padding: 20px;
     text-align: center;
@@ -65,17 +65,17 @@ nav ul li a:hover {
 /* Links with hover effects */
 .link-hover {
     text-decoration: none;
-    color: #0073e6;
+    color: #2980b9; /* Matching color with header */
 }
 
 .link-hover:hover {
-    color: #ff6600;
+    color: #f39c12; /* Golden yellow on hover */
 }
 
 /* Button hover effect */
 button, .btn-hover {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #27ae60; /* Green button */
     color: white;
     border: none;
     border-radius: 5px;
@@ -85,18 +85,21 @@ button, .btn-hover {
 }
 
 button:hover, .btn-hover:hover {
-    background-color: #218838;
+    background-color: #2ecc71; /* Lighter green on hover */
 }
 
 /* Sections */
 section {
     padding: 40px 20px;
     text-align: center;
+    background-color: #ecf0f1; /* Light gray background for sections */
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 /* Language selection section */
 #language-selection {
-    background-color: #ff6600;
+    background-color: #f39c12; /* Bright yellow-orange */
     color: white;
     padding: 20px;
     text-align: center;
@@ -108,13 +111,13 @@ section {
     padding: 10px 20px;
     text-decoration: none;
     color: white;
-    background-color: #0073e6;
+    background-color: #2980b9; /* Blue */
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 #language-selection .languages a:hover {
-    background-color: #005bb5;
+    background-color: #1c6ea4; /* Darker blue on hover */
 }
 
 /* Grid layout for learning section */
@@ -127,52 +130,37 @@ section {
 
 .grid-item {
     padding: 20px;
-    background-color: white;
+    background-color: #3498db; /* Blue background for grid items */
+    color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
 }
 
-.grid-item i {
-    color: #0073e6;
-    margin-bottom: 10px;
-}
-
-.responsive-img {
+.grid-item img {
     width: 100%;
     height: auto;
-    max-width: 800px;
-    margin-top: 20px;
-}
-
-/* Contact Form */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-form label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 /* Footer */
 footer {
-    background-color: #0073e6;
+    background-color: #2c3e50; /* Dark blue footer */
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 footer a {
-    color: #ff6600;
+    color: #f39c12;
+    text-decoration: none;
 }
+
+footer a:hover {
+    color: #e67e22;
+}
+
+footer p {
+    margin: 0;
+}
+
