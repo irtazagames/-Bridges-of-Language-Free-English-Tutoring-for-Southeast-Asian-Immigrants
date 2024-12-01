@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <h1>Bridges of Language</h1>
+        <h1 class="glowing-text">Bridges of Language</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#learn">Learn English</a></li>
-                <li><a href="#volunteer">Volunteer</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#home" class="link-hover">Home</a></li>
+                <li><a href="#learn" class="link-hover">Learn English</a></li>
+                <li><a href="#volunteer" class="link-hover">Volunteer</a></li>
+                <li><a href="#contact" class="link-hover">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -24,49 +24,54 @@
     <section id="language-selection">
         <h2>Select Your Language</h2>
         <div class="languages">
-            <a href="index-en.html">🇺🇸 English</a>
-            <a href="index-hi.html">🇮🇳 हिंदी</a>
-            <a href="index-ur.html">🇵🇰 اردو</a>
+            <a href="index-en.html" class="link-hover">🇺🇸 English</a>
+            <a href="index-hi.html" class="link-hover">🇮🇳 हिंदी</a>
+            <a href="index-ur.html" class="link-hover">🇵🇰 اردو</a>
         </div>
     </section>
 
     <section id="home">
-        <h2>Welcome</h2>
-        <p>Empowering Communities Through Language and Connection. Start learning English today for free!</p>
-        <button onclick="location.href='#learn'">Start Learning</button>
-        <img src="images/welcome-image.jpg" alt="Learning Together" class="responsive-img">
+        <h2 class="glowing-text">Welcome to Bridges of Language!</h2>
+        <p>Our mission is to help immigrants and newcomers from Southeast Asia learn English for free. We offer a variety of resources to support your learning journey. Start today and connect with others in your community!</p>
+        <button class="btn-hover" onclick="location.href='#learn'">Start Learning</button>
+        <img src="https://via.placeholder.com/800x400" alt="Learning Together" class="responsive-img">
     </section>
 
     <section id="learn">
-        <h2>Learn English</h2>
-        <p>Explore free resources to build your English skills:</p>
+        <h2 class="glowing-text">Learn English</h2>
+        <p>We provide free lessons and materials for all skill levels. Whether you're a beginner or want to improve your English, we have something for you:</p>
         <div class="grid-container">
             <div class="grid-item">
-                <i class="fas fa-volume-up fa-2x"></i>
+                <i class="fas fa-volume-up fa-3x"></i>
                 <h3>Audio Lessons</h3>
-                <p>Improve your pronunciation with free audio lessons.</p>
+                <p>Improve your pronunciation with free audio lessons. Listen and practice at your own pace.</p>
+                <img src="https://via.placeholder.com/300x200" alt="Audio Lessons" class="responsive-img">
             </div>
             <div class="grid-item">
-                <i class="fas fa-video fa-2x"></i>
+                <i class="fas fa-video fa-3x"></i>
                 <h3>Video Tutorials</h3>
-                <p>Watch easy-to-follow video lessons with subtitles.</p>
+                <p>Watch easy-to-follow video lessons that explain essential English concepts. Perfect for visual learners!</p>
+                <img src="https://via.placeholder.com/300x200" alt="Video Tutorials" class="responsive-img">
             </div>
             <div class="grid-item">
-                <i class="fas fa-book-open fa-2x"></i>
+                <i class="fas fa-book-open fa-3x"></i>
                 <h3>Beginner Lessons</h3>
-                <p>Start from the basics and progress at your own pace.</p>
+                <p>Start from the basics and progress through lessons at your own pace. We cover grammar, vocabulary, and more.</p>
+                <img src="https://via.placeholder.com/300x200" alt="Beginner Lessons" class="responsive-img">
             </div>
         </div>
     </section>
 
     <section id="volunteer">
-        <h2>Volunteer With Us</h2>
-        <p>Help us support others by becoming an English tutor!</p>
-        <button onclick="location.href='#contact'">Sign Up</button>
+        <h2 class="glowing-text">Volunteer With Us</h2>
+        <p>We need your help! Become a volunteer tutor and help others in your community learn English. We provide all the materials and support you need.</p>
+        <button class="btn-hover" onclick="location.href='#contact'">Sign Up</button>
+        <img src="https://via.placeholder.com/800x400" alt="Volunteer with Us" class="responsive-img">
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
+        <h2 class="glowing-text">Contact Us</h2>
+        <p>We'd love to hear from you! Whether you're a learner or a volunteer, reach out and we'll get back to you as soon as possible.</p>
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -77,14 +82,15 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
             
-            <button type="submit">Send</button>
+            <button class="btn-hover" type="submit">Send</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Bridges of Language. All rights reserved.</p>
+        <p>&copy; 2024 Bridges of Language. All rights reserved. <a href="https://www.example.com" class="link-hover">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
+
 
 
