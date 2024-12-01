@@ -1,8 +1,9 @@
+/* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f4f9;
     color: #333;
 }
 
@@ -35,7 +36,10 @@ nav ul li a {
     font-size: 18px;
 }
 
-section {
+/* Language selection section */
+#language-selection {
+    background-color: #28a745;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -46,29 +50,64 @@ section {
     padding: 10px 20px;
     text-decoration: none;
     color: white;
-    background-color: #28a745;
+    background-color: #0073e6;
     border-radius: 5px;
 }
 
 #language-selection .languages a:hover {
-    background-color: #218838;
+    background-color: #005bb5;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 40px 20px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #0073e6;
+    background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #005bb5;
+    background-color: #218838;
 }
 
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+/* Learn Section - Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.grid-item i {
+    color: #0073e6;
+}
+
+/* Contact Form */
 form {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: left;
 }
