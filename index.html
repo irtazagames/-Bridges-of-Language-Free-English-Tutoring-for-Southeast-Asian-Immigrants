@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bridges of Language</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -32,16 +34,29 @@
         <h2>Welcome</h2>
         <p>Empowering Communities Through Language and Connection. Start learning English today for free!</p>
         <button onclick="location.href='#learn'">Start Learning</button>
+        <img src="images/welcome-image.jpg" alt="Learning Together" class="responsive-img">
     </section>
 
     <section id="learn">
         <h2>Learn English</h2>
         <p>Explore free resources to build your English skills:</p>
-        <ul>
-            <li>Beginner Lessons</li>
-            <li>Audio Pronunciation Guides</li>
-            <li>Video Tutorials</li>
-        </ul>
+        <div class="grid-container">
+            <div class="grid-item">
+                <i class="fas fa-volume-up fa-2x"></i>
+                <h3>Audio Lessons</h3>
+                <p>Improve your pronunciation with free audio lessons.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fas fa-video fa-2x"></i>
+                <h3>Video Tutorials</h3>
+                <p>Watch easy-to-follow video lessons with subtitles.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fas fa-book-open fa-2x"></i>
+                <h3>Beginner Lessons</h3>
+                <p>Start from the basics and progress at your own pace.</p>
+            </div>
+        </div>
     </section>
 
     <section id="volunteer">
@@ -71,3 +86,5 @@
     </footer>
 </body>
 </html>
+
+
